@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env
+venv # Ignore the virtual environment folder
+.idea/ # Ignore IDE settings (if using PyCharm)
+.vscode/ # Ignore VS Code settings
+
+# Streamlit/Data
+.streamlit/
+data/
+*.csv
+*.xlsx
+*.db
+
+# API Keys/Secrets
+.env
+*.key
+*.pem
+# Ignore the file where you set the API key if it's stored locally
